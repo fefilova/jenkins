@@ -34,6 +34,6 @@ public void testReset() {
 Aggregator agr = new Aggregator();
 agr.addValue(10);
 agr.reset();
-assertThat(agr.getSum()).isEquals(0);
+assertThat(agr.getSum().isEquals(0));
 }
 }
